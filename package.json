@@ -4,7 +4,9 @@
   "description": "Newman integration with node.js demo",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test/postmanEchoScript.js"
+    "test": "node ./test/postmanEchoScript.js",
+    "lint-fix": "./node_modules/.bin/eslint . --fix",
+    "lint": "./node_modules/.bin/eslint . --fix"
   },
   "repository": {
     "type": "git",
