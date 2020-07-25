@@ -1,4 +1,6 @@
 ### Newman Demo
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=shield)](https://circleci.com/gh/MariamMahmoud/Newman-demo)
+
 So this is a demo to how to integrate newman with your node.js project, feel free to clone it and `hit npm run test` and voila!
 
 Postman has been commonly used by all of us to check our API requests, send a body, preview a response body or check an error message is returned properly.
