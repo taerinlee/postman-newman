@@ -6,6 +6,7 @@
   "scripts": {
     "test": "node ./test/postmanEchoScript.js",
     "test2": "node ./test2/postman.js",
+    "test3": "python ./test3/testNewman.py ./src/PostmanTestCollection.postman_collection.json ./src/Testing.postman_globals.json",
     "lint-fix": "./node_modules/.bin/eslint . --fix",
     "lint": "./node_modules/.bin/eslint . --fix"
   },
